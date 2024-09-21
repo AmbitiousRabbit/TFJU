@@ -1,10 +1,23 @@
 # The Film Junky Union
 
+The Film Junky Union, a new edgy community for classic movie enthusiasts, is developing a system for filtering and categorizing movie reviews. The goal is to train a model to automatically detect negative reviews. You'll be using a dataset of IMBD movie reviews with polarity labelling to build a model for classifying positive and negative reviews.
 
 # Project description of the dataset
   * `review`: the review text
-  * `pos`: the target, '0' for negative and '1' for positive
+  * `pos`: the numerical identity of the reviews' sentiment, '0' for negative and '1' for positive
+  * `sp`: the categorical identity of the reviews' sentiment
   * `ds_part`: 'train'/'test' for the train/test part of dataset, correspondingly
+  * `title_type`: this indicates if its a full- or short- length movie
+  * `primary_title`: the movie title may have different variations in different languages
+  * `original_title`: the original final production title
+  * `start_year`: this is the release date of the movie
+  * `end_year`: this is the ending date of the movie if its part of a series
+  * `runtime_minutes`: the total length of the movie in minutes
+  * `is_adult`: whether or not a film is adult rated
+  * `genres`: the film categories the movie falls into 
+  * `average_rating`: the average IMBD rating
+  * `votes`: the total number of votes the movie has acquired on the site
+
 
 # Project Process
 
